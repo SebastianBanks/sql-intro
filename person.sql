@@ -23,7 +23,7 @@ VALUES ('Sebastian', 21, 182.88, 'Salt Lake City', 'Green'),
 7. SELECT * FROM person
     WHERE age = 18;
 8. SELECT * FROM person
-    WHERE age > 30 AND age < 20;
+    WHERE age > 30 OR age < 20;
 9. SELECT * FROM person
     WHERE age != 27;
 10. SELECT * FROM person
